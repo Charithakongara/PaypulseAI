@@ -1,0 +1,6 @@
+{
+  "name": "PayPal AI Toolkit - Dynamic Pricing & Intelligence Engine",
+  "description": "Enterprise merchant dashboard combining PayPal Sandbox REST APIs, AG Grid high-performance financial data rendering, and Gemini AI price elasticity optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
