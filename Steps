@@ -15,3 +15,23 @@ git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY_NAME>.
 
 # 6. Push code to remote repository
 git push -u origin main
+
+Configure Environment Variables:
+
+PAYPAL_CLIENT_ID=your_sandbox_client_id
+PAYPAL_CLIENT_SECRET=your_sandbox_client_secret
+OPENAI_API_KEY=your_openai_api_key
+
+
+Run Backend:
+
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+
+Run Frontend:
+
+cd frontend
+npm install
+npm run dev
