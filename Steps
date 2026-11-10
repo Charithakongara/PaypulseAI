@@ -1,0 +1,17 @@
+# 1. Initialize git repository (if not already initialized)
+git init
+
+# 2. Stage all files (node_modules and local .env files are automatically ignored by .gitignore)
+git add .
+
+# 3. Create your first commit
+git commit -m "feat: PayPal AI-Toolkit Dynamic Pricing & Intelligence Engine with AG Grid"
+
+# 4. Set the default branch to main
+git branch -M main
+
+# 5. Connect your remote repository (replace with your GitHub/GitLab URL)
+git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPOSITORY_NAME>.git
+
+# 6. Push code to remote repository
+git push -u origin main
